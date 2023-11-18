@@ -11,6 +11,14 @@ const userSchema = new Schema({
     password: {
         type: String,
         required: true
+    },
+    point: {
+        type: Number,
+        default: 0
+    },
+    duration: {
+        type: Number,
+        default: 0
     }
 })
 
